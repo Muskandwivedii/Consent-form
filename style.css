@@ -1,0 +1,160 @@
+/* Existing CSS styles */
+body {
+  font-family: Arial, sans-serif;
+}
+#main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid;
+}
+.wrapper {
+  border: 2px solid #ddd; /* Add a border around the wrapper */
+  padding: 10px; /* Add padding to the wrapper */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 350px;
+}
+#container1{
+  margin-left:-13px ;
+/* justify-content: 100px; */
+}
+table {
+ width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #010000;
+  color: white; /* Set the text color to white */
+}
+
+#container h2[style*="color: red;"] {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* Adjust the numerical value as needed  */
+}
+#container h3{
+  font-size: 30px;
+  font-weight: 200px;
+  background-color: red;
+}
+
+/* New styles for logo */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-section {
+  flex-grow: 1;
+}
+.important-info{
+  width: 760px;
+  border-style: solid;
+  border-width: 1px;
+margin-top: -5px;
+margin-left:250px;
+}
+#info{
+  margin-left: 8px;
+}
+#info h5{
+  font-size: 16px;
+  margin-top: 3px;
+}
+.logo-section img {
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  height: auto;   /* Maintain the aspect ratio of the logo */
+   margin-top: -25px;
+}
+
+/* Existing styles ... */
+
+.red-heading {
+  color: red;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-section {
+  flex-grow: 1;
+}
+
+.logo-section {
+  position: relative;
+  top: -270px; /* Adjust the top property to raise the logo upward */
+}
+
+.logo-section {
+  margin-left: 230px; /* Adjust the margin-right property to move the logo to the left */
+}
+
+.logo-section img {
+  max-width: 100px; /* Adjust the max-width for the logo */
+  height: auto;   /* Maintain the aspect ratio of the logo */
+}
+
+/* Existing CSS styles ... */
+
+table{
+  width:760px;
+  margin-left:250px ;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: -88px;
+}
+th,
+td {
+  padding: 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+display: flex;
+align-items: center;
+position: relative;
+}
+#tab{
+  display: flex;
+  justify-content: center;
+}
+/* New styles for adjusting the spacing */
+td {
+  vertical-align: top; /* Align content at the top of the cell */
+}
+
+input[type="text"] {
+  width: 80%; /* Adjust the width as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-bottom: 5px; /* Reduce the margin at the bottom for closer spacing */
+  margin-top: 2px; /* Adjust the top margin for closer spacing */
+}
+
+
+
+/* Existing styles ... */
+
+@media (max-width: 600px) {
+  .logo-section {
+    margin-left: 0; /* Remove left margin on smaller screens */
+    text-align: center; /* Center the logo */
+  }
+}
